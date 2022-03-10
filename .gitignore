@@ -1,6 +1,9 @@
-dist
-build
-demo3.py
-demo.py
-demo2.py
-.idea
+/dist
+/build
+/demo3.py
+/demo.py
+/demo2.py
+/.idea
+/sound-waves~1.ico
+/sound-waves~2.ico
+/sound-waves.png
