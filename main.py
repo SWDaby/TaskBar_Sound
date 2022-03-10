@@ -17,13 +17,4 @@ if __name__ == '__main__':
     print('开始运行程序')
     on_run()
     print('程序结束')
-   # sys.exit(0)
-    # print('thread %s is running...' % threading.current_thread().name)
-    # t = threading.Thread(target=on_run, name='runThread')
-    # t.start()
 
-    # print('thread %s ended.' % threading.current_thread().name)
-
-    # app.MainLoop()
-    # i=i+1
-    # time.sleep(1)
