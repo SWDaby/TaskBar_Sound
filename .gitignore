@@ -1,5 +1,6 @@
-/dist/
-/build/
-/demo3.py
-/demo.py
-/demo2.py
+dist
+build
+demo3.py
+demo.py
+demo2.py
+.idea
