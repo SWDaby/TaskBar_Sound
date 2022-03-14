@@ -1,6 +1,7 @@
 import ctypes
 import pynput.mouse
 import task_bar
+import backstage
 
 WM_APPCOMMAND = 0x319
 APPCOMMAND_VOLUME_UP = 0x0a  # 1010
@@ -33,3 +34,7 @@ def on_listen():
         with pynput.mouse.Listener(
                 on_scroll=on_scroll) as listener:
             listener.join()
+
+
+def on_app():
+    backstage.MyApp().MainLoop()

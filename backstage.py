@@ -4,7 +4,7 @@ import sys
 
 
 class MyTaskBarIcon(wx.adv.TaskBarIcon):
-    ICON = "sound-waves.ico"  # 图标地址
+    ICON = "res/sound-waves.ico"  # 图标地址
 
     ID_ABOUT = wx.ID_ABOUT  # 菜单选项“关于”的ID
     ID_EXIT = wx.ID_EXIT  # 菜单选项“退出”的ID
@@ -22,10 +22,10 @@ class MyTaskBarIcon(wx.adv.TaskBarIcon):
     def onAbout(self, event):
 
         info = wx.adv.AboutDialogInfo()
-        info.SetIcon(wx.Icon('sound-waves.ico', wx.BITMAP_TYPE_ICO,))
+        info.SetIcon(wx.Icon('res/sound-waves.ico', wx.BITMAP_TYPE_ICO,))
         info.SetVersion('1.0')
 
-        info.SetCopyright('(C) 2021-03-10 Daby')
+        info.SetCopyright('(C) 2022-03-10 Daby')
 
         wx.adv.AboutBox(info)
        #wx.MessageBox('程序作者：Daby\n最后更新日期：2022-03-09', "关于")
