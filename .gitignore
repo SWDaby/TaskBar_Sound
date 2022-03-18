@@ -6,8 +6,7 @@
 /res/sound-waves~1.ico
 /res/sound-waves~2.ico
 /res/sound-waves.png
-/main.spec
 /@AutomationLog.txt
-/text.py
-/text2.py
-text3.py
+/text*.py
+/*.spec
+/*.log
